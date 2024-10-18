@@ -12,8 +12,8 @@ on:
     branches: ["main"]
 
   # Runs every one hour
-  schedule:
-    - cron: '5 */1 * * *'
+ # schedule:
+ #  - cron: '5 */12 * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
